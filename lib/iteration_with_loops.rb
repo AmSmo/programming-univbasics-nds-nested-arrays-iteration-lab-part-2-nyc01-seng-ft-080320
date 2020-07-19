@@ -19,7 +19,7 @@ def find_min_in_nested_arrays(src)
     ele_index = 0
     while ele_index < row.length
       ele = row[ele_index]
-      if ele > lowest_num
+      if ele < lowest_num
         lowest_num= ele
       end
     ele_index += 1
